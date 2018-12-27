@@ -1,0 +1,954 @@
+
+path {
+  fill: transparent;
+}
+
+text {
+  fill: #FF9800;
+}
+hr{
+  background-color: black;
+  z-index: 1;
+  width:100%;  
+}
+
+form{
+  margin-bottom: 100px;
+}
+
+h1.main-text{
+  color: 		black;
+  margin-top: -49px;
+  margin-bottom: -41px;
+  padding-top: 0;
+  padding-left: 0;
+  -webkit-perspective: 0;
+  perspective: 0;
+  -webkit-transform: translate3d(0,0,-3px);
+  transform: translate3d(0,0,-3px);
+  position: absolute;
+  top:30%;
+  left: 2%;
+  font-size: 170px;
+  line-height: 196px;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  font-weight: 3000;
+  
+}
+h2{
+  color:  white;
+  padding-top: 50px;
+}
+.ml{
+ 
+}
+
+@media screen and ( max-width:500px){
+  #home div{
+    font-size: 14px;
+    background-color: #80b09a;
+    width: 70%;
+    
+   }
+  #home h1{
+     font-size: 40px; 
+     text-align: center; 
+  color: 		black;
+  margin-top: -49px;
+  margin-bottom: -41px;
+  padding-top: 0;
+  padding-left: 0;
+  -webkit-perspective: 0;
+  perspective: 0;
+  -webkit-transform: translate3d(0,0,-3px);
+  transform: translate3d(0,0,-3px);
+  width: 100%; 
+  line-height: 196px;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  font-weight: 3000;
+    
+   }
+  #home background-image{ 
+      height: 600px;
+  } 
+  #loading{
+    
+    width:60px;
+   
+  }
+  
+  #home .sub-main-header{
+     position: absolute;
+    top:20%;
+    left:30%;
+    font-size: 16px;
+  }
+  #home > img.bnw{
+    height: 600px;
+  }
+  div.rainbow{
+   top:15%;
+    font-size: 13px;
+  }
+
+  #home .date-place{
+  font-size: 16px;
+  font-weight: 900;
+  position: absolute;
+  top: 70%;
+  left: 30%; 
+  -webkit-perspective: 0;
+  perspective: 0;
+  -webkit-transform: translate3d(0,0,-3px);
+  transform: translate3d(0,0,-3px);
+   line-height: 196px;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  font-weight: 3000;
+  }
+  #home a.apply-button{
+    
+     
+  }
+  #home button{
+  
+     }
+
+  #register h1{
+    background:rgba(239,239,241,0.85); 
+    color: white;
+  }   
+ nav.menu {
+  position: fixed;
+  top:75%;
+  left:40%;   
+}
+
+  .flex-container-footer>div #prodaction {
+   
+   left:10%;
+ }
+
+ .flex-container-judges{}
+ .flex-container-judges > div{
+  
+ float: left;
+ width: 140px;
+ margin-bottom: 16px;
+  padding: 0 8px;
+   margin: 10px;
+  text-align: center;
+    
+}
+ .flex-container-judges >div>h2{
+   text-align: center;
+ }
+  .flex-container-judges >div>p{
+   text-align: center;
+   font-size:10px;
+ }
+#img {
+border-radius: 50%; margin-top:2px; border: 0.2em solid #80b09a;  
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+ width:60px; 
+ height:60px;
+ }
+}
+/* The sidebar menu */
+.sidenav {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 160px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: white; /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+  opacity: 0.3;
+}
+
+.chrom{ 
+  position: fixed;
+  top:5%;
+  right: 10%;
+}
+
+#loading {
+		-webkit-animation: rotation 2s infinite linear;
+}
+
+.menu-image{ 
+  position: fixed;
+   top:87%;
+  left:48%;
+}
+@-webkit-keyframes rotation {
+		from {
+				-webkit-transform: rotate(0deg);
+		}
+		to {
+				-webkit-transform: rotate(359deg);
+		}
+}
+.content{
+    position: fixed;
+    top:35%;
+    right:2%;
+    list-style-type:none; 
+    z-index: 1; /* Stay on top */
+    overflow-x: hidden;                  
+    background-color: rgb(237, 237, 239);
+}
+
+
+ul{
+  list-style-type:none;
+  background-color:  rgb(237, 237, 239)
+
+}
+li{
+  padding-top: 15px;
+
+}
+
+.sub-main-header{
+  color: black;
+  margin-top: -49px;
+    margin-bottom: -41px;
+    padding-top: 0;
+    padding-left: 0;
+    -webkit-perspective: 0;
+    perspective: 0;
+    -webkit-transform: translate3d(0,0,-3px);
+    transform: translate3d(0,0,-3px);
+     position: absolute;
+    top:15%;
+    left:3%;
+    font-size: 50px;
+    line-height: 196px;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+/* date place*/
+.date-place{
+  color: 	black;
+  margin-top: -49px;
+    margin-bottom: -41px;
+    padding-top: 0;
+    padding-left: 0;
+    -webkit-perspective: 0;
+    perspective: 0;
+    -webkit-transform: translate3d(0,0,-3px);
+    transform: translate3d(0,0,-3px);
+     position: absolute;
+    top:45%;
+    left:3%;
+    font-size: 50px;
+    line-height: 196px;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+.flex-container-judges{
+  display: flex;
+  justify-content: center;
+  height: 300px;
+  width: 100%;
+}
+.flex-container-judges > div{
+ float: left;
+ width: 200px;
+ margin-bottom: 16px;
+ padding: 0 8px;
+ margin: 10px;
+ text-align: center;    
+}
+.flex-container-judges > div>p{
+    text-align: left;  
+ 
+  color:black; font-size:14px;
+  
+ 
+}
+.flex-container-judges > div > img{
+border-radius: 50%; margin-top:2px; border: 0.2em solid #80b09a;  
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5); width:100px; height:100px;
+ }
+
+/* The navigation menu links */
+.content a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+  color: 	white;
+  display: block;
+  
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+div.prize {
+ background-color: white;
+ text-align: center; 
+ color:	#80b09a;
+ padding-bottom: 10px;
+ padding-top: 10px;
+}
+.flex-container {
+  display: flex;
+  justify-content: center;
+  height: 300px;
+}
+
+.flex-container > div {
+  background-color: #80b09a;
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+ol{
+  align-content: center; 
+  list-style-type: none;
+  font-size: 20px;
+  
+}
+
+ #first {
+height: 200px;
+background-color: 	darkgoldenrod;
+}
+ #second {
+  position:relative;
+  top:10%;
+  height: 170px;
+  background-color: silver
+}
+#third{
+  position: relative;
+  top:20%;
+  height: 140px;
+  background-color: #CD7F32;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+/* Style page content */
+.main {
+  margin-left: 160px; /* Same as the width of the sidebar */
+  padding: 0px 10px;
+  background-color: 		#ffffff;
+}
+.sponsership{
+    text-align: center;
+    background-color: rgb(237, 237, 239);
+    color: white;
+}
+
+.main-text{
+    position: absolute;
+    top:20%;
+    
+    color: white;
+   
+    font-weight: bold;
+    
+}
+.apply-button{
+     position: absolute;
+     top:48%;
+     left:40%;
+      
+}
+
+button{
+  /*background-color: #80b09a;*/
+  height: 30px;
+  width: 100px;
+  position: absolute;
+  top:50.5%;
+  left: 45.5%;
+  border-color: black;
+  color:black; 
+  background: white;
+}
+
+/* grid for prizes*/
+.grid-container {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 100px 100px 100px; /*Make the grid smaller than the container*/
+  grid-gap: 50px;
+  
+}
+
+.grid-container > div {
+  
+  text-align: center;
+  
+  font-size: 30px;
+  color: 	#80b09a;
+}
+
+.grid-container-sponsor {
+  display: grid;
+  width: 100%;
+  height: 400px;
+  align-content: center;
+  grid-template-columns: auto auto auto;
+  grid-gap: 10px;
+  justify-content: center;
+ 
+
+}
+
+.grid-container-sponsor > div {
+
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+  grid-template-columns: 100px 100px 100px;
+  width: 150px;
+  height: 150px;
+  
+}
+
+
+.rainbow {
+  /* position */
+  position: fixed;
+  top:20%;
+  right: 7%;
+   /* Font options */
+  
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  font-size:20px;
+  font-weight: 500;
+   /* Chrome, Safari, Opera */
+  -webkit-animation: rainbow 5s infinite; 
+  
+  /* Internet Explorer */
+  -ms-animation: rainbow 3s infinite;
+  
+  /* Standar Syntax */
+  animation: rainbow 3s infinite; 
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes rainbow{
+  0%{color: orange;}	
+  10%{color: purple;}	
+	20%{color: red;}
+  30%{color: CadetBlue;}
+	40%{color: yellow;}
+  50%{color: coral;}
+	60%{color: green;}
+  70%{color: cyan;}
+  80%{color: DeepPink;}
+  90%{color: DodgerBlue;}
+	100%{color: orange;}
+}
+
+/* Internet Explorer */
+@-ms-keyframes rainbow{
+  0%{color: orange;}	
+  10%{color: purple;}	
+	20%{color: red;}
+	40%{color: yellow;}
+	60%{color: green;}
+	100%{color: orange;}
+}
+
+/* Standar Syntax */
+@keyframes rainbow{
+  0%{color: orange;}	
+  10%{color: purple;}	
+	20%{color: red;}
+	40%{color: yellow;}
+	60%{color: green;}
+	100%{color: orange;}
+}
+
+
+.class-section.about{
+    background-color:	white;
+  -webkit-column-count: 2; /* Chrome, Safari, Opera */
+  -moz-column-count: 2; /* Firefox */
+  column-count: 2;
+
+}
+.class-section{
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    color: #000;
+    background-color:	#f0e1ba;
+     -webkit-column-count: 2; /* Chrome, Safari, Opera */
+  -moz-column-count: 2; /* Firefox */
+  column-count: 2;
+}
+
+.class-section.challnges {
+    background-color: 	#80b09a;
+     background-image: url('/assets/hack.jpg');
+     background-repeat: no-repeat;
+      background-position: 50% 0;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+
+}
+.class-section {
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+    color: #000;
+    
+    background-repeat: no-repeat;
+      background-position: 50% 0;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+   
+  
+    
+   
+}
+.class-section.challnges.image{
+
+  
+}
+
+.class-section.register{
+  background-color: white;
+  -webkit-column-count: 2; /* Chrome, Safari, Opera */
+  -moz-column-count: 2; /* Firefox */
+  
+  background-repeat: no-repeat;
+  width: 100%;
+ 
+ 
+}
+
+
+.wrap-2.a {
+    margin-bottom: 5%;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+.class-section, .wrap-2.a {
+    -webkit-flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+}
+.a {
+    font-weight: 300;
+}
+
+.wrap-2 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 80%;
+}
+
+.left-1 {
+    display: flex;
+    width: 100%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 0 20px;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    text-align: center;
+}
+.left-1, .right-1 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    -webkit-flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+}
+
+* {
+  box-sizing: border-box;
+}
+P{
+  color: white;
+  text-align: left;
+  width: 80%;
+}
+#goal{
+  margin-bottom: 10px;
+}
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  opacity: 1;
+   
+}
+label{
+  color: black;
+}
+input[type=submit] {
+  background-color: #80b09a;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+  float: left;
+  
+}
+
+input[type=submit]:hover {
+  background-color: #80b09a;
+  
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width:35%;
+  
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+
+}
+
+
+
+/* --- */
+
+
+
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+
+
+.menu {
+  position: fixed;
+  top:75%;
+  left:48%;   
+  background: black;
+  z-index: 1; 
+  width: 4em;
+  height: 4em;
+  border-radius: 5em;
+  margin: auto;
+  margin-top: 5em;
+  margin-bottom: 5em;
+  cursor: pointer;
+  border: 1em solid black;
+  
+}
+.menu:after {
+  content: "";
+  position: absolute;
+  top: 0.5em;
+  left: 0.5em;
+  width: 1em;
+  height: 0.2em;
+  border-top: 0.6em double #fff;
+  border-bottom: 0.2em solid #fff;
+   background-image: url('/assets/longevity1.png');
+}
+.menu ul {
+  list-style: none;
+  padding: 0;
+}
+.menu li {
+  width: 6em;
+  height: 1.4em;
+  padding: 0.2em;
+  margin-top: 0.2em;
+  text-align: center;
+  border-top-right-radius: 0.5em;
+  border-bottom-right-radius: 0.5em;
+  transition: all 1s;
+  background:black;
+  opacity: 0;
+  z-index: -1;
+}
+.menu:hover li {
+  opacity: 1;
+}
+/**
+ * Add a pseudo element to cover the space
+ * between the links. This is so the menu
+ * does not lose :hover focus and disappear
+ */
+.menu:hover ul::before {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 0;
+  display: block;
+  left: 50%;
+  top: -5.0em;
+  /**
+   * The pseudo-element is a semi-circle
+   * created with CSS. Top, bottom, and right
+   * borders are 6.5em (left being 0), and then
+   * a border-radius is added to the two corners
+   * on the right.
+   */
+  border-width: 6.5em;
+  border-radius: 0 7.5em 7.5em 0;
+  border-left: 0;
+  border-style: solid;
+  /**
+   * Have to have a border color for the border
+   * to be hoverable. I'm using a very light one
+   * so that it looks invisible.
+   */
+  border-color: rgba(0,0,0,0.01);
+  /**
+   * Put the psuedo-element behind the links
+   * (So they can be clicked on)
+   */
+  z-index: -1;
+  /**
+   * Make the cursor default so it looks like
+   * nothing is there
+   */
+  cursor: default;
+}
+.menu a {
+  color: white;
+  text-decoration: none;
+  /**
+   * This is to vertically center the text on the
+   * little tab-like things that the text is on.
+   */
+  line-height: 1.5em;
+}
+.menu a {
+  color: white;
+  text-decoration: none;
+}
+.menu ul {
+  transform: rotate(180deg) translateY(-2em);
+  transition: 1s all;
+}
+.menu:hover ul {
+  transform: rotate(0deg) translateY(-1em);
+}
+.menu li:hover {
+  background: #80b09a;
+  z-index: 10;
+}
+
+.menu li:nth-of-type(1) {
+  transform: rotate(-90deg);
+  position: absolute;
+  left: -1.8em;
+  top: -5.0em;
+}
+.menu li:nth-of-type(2) {
+  transform: rotate(-45deg);
+  position: absolute;
+  left: 2em;
+  top: -3em;
+}
+.menu li:nth-of-type(3) {
+  
+  position: absolute;
+  left: 3.4em;
+  top: 0.3em;
+}
+.menu li:nth-of-type(4) {
+  transform: rotate(45deg);
+  position: absolute;
+  right: 2em;
+  top: -3em;
+}
+.menu li:nth-of-type(5) {
+  
+  position: absolute;
+  right: 3.4em;
+  top: 0.3em;
+}
+.hint {
+  text-align: center;
+}
+
+
+img.bnw{
+    /* filter: url(filters.svg#grayscale); Firefox 3.5+ */
+      filter: gray; /* IE5+ */
+      -webkit-filter: grayscale(1); /* Webkit Nightlies & Chrome Canary */
+      -webkit-transition: all .8s ease-in-out;  
+      height:450px;
+    }
+
+    img.bnw:hover {
+    filter: none;
+      -webkit-filter: grayscale(0);
+      -webkit-transform: scale(1.01);
+    }
+
+#content       
+{   color: black;
+    font-size: .75em; /* 12/16 */
+    width: 71.875%; /* 650/960 */
+    max-width: 960px;
+    text-align: left;
+    margin: 0px auto; /*auto centers the container */
+    padding: 3.84615384615385%; /* 25/650 */
+    background-color: rgb(237, 237, 239);
+}
+/*CSS3 multiple columns.*/
+/* Get em size for colums: 184/16 */   
+.columns
+{   
+    -moz-column-width: 11.5em; /* Firefox */
+    -webkit-column-width: 11.5em; /* webkit, Safari, Chrome */
+    column-width: 11.5em;
+    background-color:  rgb(237, 237, 239);
+}
+
+/*remove standard h2 and bullet formatting from h2*/
+.columns h2{
+  
+}
+/*remove standard list and bullet formatting from ul*/
+.columns ul
+{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+
+}
+/* correct webkit/chrome uneven margin on the first column*/
+.columns ul li:first-child
+{
+    margin-top:0px;
+}
+
+.sponsership{
+  color: black;
+  text-align: center;
+}
+.container {
+
+background-color: white;
+
+margin: 0;
+padding: 0;
+width: 100%;
+height: 650px;
+background-repeat: no-repeat;
+opacity: 0.5;
+
+}
+#register h1{
+  color: black;
+  
+}
+
+footer{
+  height:175px;
+  width: 100%;
+  background-color: black;
+
+}
+.flex-container-footer {
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.flex-container-footer > div {
+  background-color: black;
+  width: 200px;
+  padding-top: 10px;
+  text-align: left;
+  
+  
+}
+
+.flex-container-footer #prodaction{
+  color:white;font-size:13px;text-align:left; position:absolute; left:78px;
+}
