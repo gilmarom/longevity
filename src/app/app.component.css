@@ -1,4 +1,10 @@
 
+body{    font-family: 'Roboto', sans-serif;}
+#home div{
+  background-color: #80b09a;
+  padding-top: 0px;
+      font-family: 'Roboto', sans-serif;
+}
 path {
   fill: transparent;
 }
@@ -33,8 +39,9 @@ h1.main-text{
   line-height: 196px;
   -webkit-transform-style: preserve-3d;
   transform-style: preserve-3d;
-  font-weight: 3000;
-  
+  font-weight: 700;
+  z-index: 1;
+      font-family: 'Roboto', sans-serif;
 }
 h2{
   color:  white;
@@ -49,6 +56,7 @@ h2{
     font-size: 14px;
     background-color: #80b09a;
     width: 70%;
+    
     
    }
   #home h1{
@@ -107,6 +115,7 @@ h2{
   -webkit-transform-style: preserve-3d;
   transform-style: preserve-3d;
   font-weight: 3000;
+  
   }
   #home a.apply-button{
     
@@ -126,19 +135,20 @@ h2{
   left:40%;   
 }
 
+  .flex-container-footer{height: 250px;} 
   .flex-container-footer>div #prodaction {
    
    left:10%;
  }
 
- .flex-container-judges{}
- .flex-container-judges > div{
+ .flex-container-sponsers{}
+ .flex-container-sponsers > div{
   
  float: left;
  width: 140px;
- margin-bottom: 16px;
+
   padding: 0 8px;
-   margin: 10px;
+
   text-align: center;
     
 }
@@ -150,10 +160,9 @@ h2{
    font-size:10px;
  }
 #img {
-border-radius: 50%; margin-top:2px; border: 0.2em solid #80b09a;  
-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
- width:60px; 
- height:60px;
+
+ width:100px; 
+ height:100px;
  }
 }
 /* The sidebar menu */
@@ -251,30 +260,23 @@ li{
     -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
 }
-.flex-container-judges{
+.flex-container-sponsers{
   display: flex;
   justify-content: center;
-  height: 300px;
+  
   width: 100%;
 }
-.flex-container-judges > div{
+.flex-container-sponsers > div{
  float: left;
  width: 200px;
- margin-bottom: 16px;
+
  padding: 0 8px;
- margin: 10px;
+ 
  text-align: center;    
 }
-.flex-container-judges > div>p{
-    text-align: left;  
- 
-  color:black; font-size:14px;
-  
- 
-}
-.flex-container-judges > div > img{
-border-radius: 50%; margin-top:2px; border: 0.2em solid #80b09a;  
-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5); width:100px; height:100px;
+
+.flex-container-sponsers > div > img{
+   width: 100px; height: 80px;
  }
 
 /* The navigation menu links */
@@ -298,6 +300,7 @@ div.prize {
  color:	#80b09a;
  padding-bottom: 10px;
  padding-top: 10px;
+     font-family: 'Roboto', sans-serif;
 }
 .flex-container {
   display: flex;
@@ -357,7 +360,7 @@ background-color: 	darkgoldenrod;
     background-color: rgb(237, 237, 239);
     color: white;
 }
-
+.sponsership >div> div> br >img { width: 200px; height: 170px;}
 .main-text{
     position: absolute;
     top:20%;
@@ -488,7 +491,7 @@ button{
   -webkit-column-count: 2; /* Chrome, Safari, Opera */
   -moz-column-count: 2; /* Firefox */
   column-count: 2;
-
+      font-family: 'Roboto', sans-serif;
 }
 .class-section{
     display: flex;
@@ -513,7 +516,7 @@ button{
 
 .class-section.challnges {
     background-color: 	#80b09a;
-     background-image: url('/assets/hack.jpg');
+  /*  background-image: url('/assets/brain.png');*/
      background-repeat: no-repeat;
       background-position: 50% 0;
     -ms-background-size: cover;
@@ -521,6 +524,7 @@ button{
     -moz-background-size: cover;
     -webkit-background-size: cover;
     background-size: cover;
+        font-family: 'Roboto', sans-serif;
 
 }
 .class-section {
@@ -564,7 +568,7 @@ button{
   
   background-repeat: no-repeat;
   width: 100%;
- 
+     font-family: 'Roboto', sans-serif;
  
 }
 
@@ -721,6 +725,7 @@ input[type=submit]:hover {
   margin-bottom: 5em;
   cursor: pointer;
   border: 1em solid black;
+      font-family: 'Roboto', sans-serif;
   
 }
 .menu:after {
@@ -860,7 +865,7 @@ img.bnw{
       filter: gray; /* IE5+ */
       -webkit-filter: grayscale(1); /* Webkit Nightlies & Chrome Canary */
       -webkit-transition: all .8s ease-in-out;  
-      height:450px;
+      height:550px;
     }
 
     img.bnw:hover {
@@ -932,7 +937,7 @@ footer{
   height:175px;
   width: 100%;
   background-color: black;
-
+      font-family: 'Roboto', sans-serif;
 }
 .flex-container-footer {
   display: flex;
@@ -951,4 +956,70 @@ footer{
 
 .flex-container-footer #prodaction{
   color:white;font-size:13px;text-align:left; position:absolute; left:78px;
+}
+
+#profile{
+  background-color:rgba(239,239,241,0.85);
+  width: 100%;
+      font-family: 'Roboto', sans-serif;
+}
+#profile .column {
+  float: left;
+  justify-content: center;
+  width: 33.3333%;
+  height: 400px;
+  margin-bottom: 16px;
+  padding: 0 8px; 
+  background-color:rgba(239,239,241,0.85);
+}
+#img{
+border-radius: 50%;    -webkit-border-radius: 50%; margin-top:2px;  border: 0.2em solid #80b09a;  
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);position:relative;top:20px; width:160px; height:140px;}
+
+#profile > div  >div > div >div> p{ color: black;  }
+#profile .button #contact{width:100%}
+/* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 650px) {
+  #profile .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+/* Add some shadows to create a card effect */
+.card {
+
+}
+
+/* Some left and right padding inside the container */
+#profile div.p-container {
+  padding: 0 10px;
+  background-color:rgba(239,239,241,0.85);
+}
+
+/* Clear floats */
+.p-container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+#profile .button #contact{
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
 }
