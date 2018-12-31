@@ -1,9 +1,11 @@
 
 body{    font-family: 'Roboto', sans-serif;}
+h1{ font-family: 'Roboto', sans-serif;}
 #home div{
-  background-color: #80b09a;
+  color:#2dabbb;
   padding-top: 0px;
-      font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif;
+      
 }
 path {
   fill: transparent;
@@ -35,7 +37,7 @@ h1.main-text{
   position: absolute;
   top:30%;
   left: 2%;
-  font-size: 170px;
+
   line-height: 196px;
   -webkit-transform-style: preserve-3d;
   transform-style: preserve-3d;
@@ -44,18 +46,36 @@ h1.main-text{
       font-family: 'Roboto', sans-serif;
 }
 h2{
-  color:  white;
+  color:  gray;
+  font: bold;
   padding-top: 50px;
+   font-family: 'Roboto', sans-serif;
 }
 .ml{
  
 }
 
+
+.flex-container-home {
+  display: flex;
+  justify-content: space-around;
+ /* background-color: DodgerBlue;*/
+ 
+}
+
+.flex-container-home > div {
+  
+ 
+  width: 90%;
+  text-align: center;
+  line-height: 30px;
+  font-size: 20px;
+}
+
 @media screen and ( max-width:500px){
   #home div{
     font-size: 14px;
-    background-color: #80b09a;
-    width: 70%;
+    
     
     
    }
@@ -81,9 +101,11 @@ h2{
   #home background-image{ 
       height: 600px;
   } 
-  #loading{
+ #aplly img#loading{
     
     width:60px;
+    position:relative;
+    left: 5%;
    
   }
   
@@ -94,7 +116,9 @@ h2{
     font-size: 16px;
   }
   #home > img.bnw{
-    height: 600px;
+    
+    width: 100%;
+  
   }
   div.rainbow{
    top:15%;
@@ -126,7 +150,7 @@ h2{
      }
 
   #register h1{
-    background:rgba(239,239,241,0.85); 
+   
     color: white;
   }   
  nav.menu {
@@ -226,7 +250,7 @@ li{
 .sub-main-header{
   color: black;
   margin-top: -49px;
-    margin-bottom: -41px;
+  margin-bottom: -41px;
     padding-top: 0;
     padding-left: 0;
     -webkit-perspective: 0;
@@ -300,7 +324,7 @@ div.prize {
  color:	#80b09a;
  padding-bottom: 10px;
  padding-top: 10px;
-     font-family: 'Roboto', sans-serif;
+ font-family: 'Roboto', sans-serif;
 }
 .flex-container {
   display: flex;
@@ -363,17 +387,18 @@ background-color: 	darkgoldenrod;
 .sponsership >div> div> br >img { width: 200px; height: 170px;}
 .main-text{
     position: absolute;
-    top:20%;
-    
+    top:20%;  
     color: white;
-   
     font-weight: bold;
-    
 }
+#apply{
+  display: flex;
+  justify-content: center;
+   
+}
+
 .apply-button{
-     position: absolute;
-     top:48%;
-     left:40%;
+   
       
 }
 
@@ -381,11 +406,9 @@ button{
   /*background-color: #80b09a;*/
   height: 30px;
   width: 100px;
-  position: absolute;
-  top:50.5%;
-  left: 45.5%;
-  border-color: black;
-  color:black; 
+  border: none;
+  border-color: white;
+  color:#2dabbb; 
   background: white;
 }
 
@@ -436,7 +459,7 @@ button{
   top:20%;
   right: 7%;
    /* Font options */
-  
+  font-family: sans-serif;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   font-size:20px;
   font-weight: 500;
@@ -449,7 +472,7 @@ button{
   /* Standar Syntax */
   animation: rainbow 3s infinite; 
 }
-
+  
 /* Chrome, Safari, Opera */
 @-webkit-keyframes rainbow{
   0%{color: orange;}	
@@ -487,11 +510,13 @@ button{
 
 
 .class-section.about{
-    background-color:	white;
+  background-color:	white;
   -webkit-column-count: 2; /* Chrome, Safari, Opera */
   -moz-column-count: 2; /* Firefox */
   column-count: 2;
-      font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  color: gray;      
+      
 }
 .class-section{
     display: flex;
@@ -515,7 +540,7 @@ button{
 }
 
 .class-section.challnges {
-    background-color: 	#80b09a;
+    background-color: 	 #2dabbb;
   /*  background-image: url('/assets/brain.png');*/
      background-repeat: no-repeat;
       background-position: 50% 0;
@@ -542,8 +567,7 @@ button{
     -webkit-column-count: 2; /* Chrome, Safari, Opera */
     -moz-column-count: 2; /* Firefox */
     column-count: 2;
-    color: #000;
-    
+    color: #000; 
     background-repeat: no-repeat;
       background-position: 50% 0;
     -ms-background-size: cover;
@@ -551,9 +575,6 @@ button{
     -moz-background-size: cover;
     -webkit-background-size: cover;
     background-size: cover;
-   
-  
-    
    
 }
 .class-section.challnges.image{
@@ -574,7 +595,7 @@ button{
 
 
 .wrap-2.a {
-    margin-bottom: 5%;
+    margin-bottom: 3%;
     -ms-flex-direction: column;
     flex-direction: column;
     -webkit-box-pack: start;
@@ -656,7 +677,7 @@ label{
   color: black;
 }
 input[type=submit] {
-  background-color: #80b09a;
+  background-color: #2dabbb;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -715,7 +736,7 @@ input[type=submit]:hover {
   position: fixed;
   top:75%;
   left:48%;   
-  background: black;
+  background:gray;
   z-index: 1; 
   width: 4em;
   height: 4em;
@@ -724,7 +745,7 @@ input[type=submit]:hover {
   margin-top: 5em;
   margin-bottom: 5em;
   cursor: pointer;
-  border: 1em solid black;
+  border: 1em solid gray;
       font-family: 'Roboto', sans-serif;
   
 }
@@ -752,7 +773,7 @@ input[type=submit]:hover {
   border-top-right-radius: 0.5em;
   border-bottom-right-radius: 0.5em;
   transition: all 1s;
-  background:black;
+  background:gray;
   opacity: 0;
   z-index: -1;
 }
@@ -821,7 +842,7 @@ input[type=submit]:hover {
   transform: rotate(0deg) translateY(-1em);
 }
 .menu li:hover {
-  background: #80b09a;
+  background: #2dabbb;
   z-index: 10;
 }
 
@@ -865,13 +886,15 @@ img.bnw{
       filter: gray; /* IE5+ */
       -webkit-filter: grayscale(1); /* Webkit Nightlies & Chrome Canary */
       -webkit-transition: all .8s ease-in-out;  
-      height:550px;
+      height: 300px;
+      padding-top: 30px;
     }
 
     img.bnw:hover {
     filter: none;
       -webkit-filter: grayscale(0);
       -webkit-transform: scale(1.01);
+      
     }
 
 #content       
@@ -936,7 +959,7 @@ opacity: 0.5;
 footer{
   height:175px;
   width: 100%;
-  background-color: black;
+  background-color: white;
       font-family: 'Roboto', sans-serif;
 }
 .flex-container-footer {
@@ -946,7 +969,7 @@ footer{
 }
 
 .flex-container-footer > div {
-  background-color: black;
+  background-color: white;
   width: 200px;
   padding-top: 10px;
   text-align: left;
@@ -955,13 +978,13 @@ footer{
 }
 
 .flex-container-footer #prodaction{
-  color:white;font-size:13px;text-align:left; position:absolute; left:78px;
+  color:#2dabbb;font-size:14px;text-align:left; position:absolute; left:78px;
 }
 
 #profile{
-  background-color:rgba(239,239,241,0.85);
+  background-color:white;
   width: 100%;
-      font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 #profile .column {
   float: left;
@@ -970,13 +993,13 @@ footer{
   height: 400px;
   margin-bottom: 16px;
   padding: 0 8px; 
-  background-color:rgba(239,239,241,0.85);
+  background-color:white;
 }
 #img{
-border-radius: 50%;    -webkit-border-radius: 50%; margin-top:2px;  border: 0.2em solid #80b09a;  
+border-radius: 50%;    -webkit-border-radius: 50%; margin-top:2px;  border: 0.2em solid #2dabbb;  
 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);position:relative;top:20px; width:160px; height:140px;}
 
-#profile > div  >div > div >div> p{ color: black;  }
+#profile > div  >div > div >div> p{ color: #2dabbb; background-color: white;  }
 #profile .button #contact{width:100%}
 /* Display the columns below each other instead of side by side on small screens */
 @media screen and (max-width: 650px) {
@@ -988,13 +1011,13 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);position:relative;top:20px; width:160
 
 /* Add some shadows to create a card effect */
 .card {
-
+  background-color: white;
 }
 
 /* Some left and right padding inside the container */
 #profile div.p-container {
   padding: 0 10px;
-  background-color:rgba(239,239,241,0.85);
+  background-color:white;
 }
 
 /* Clear floats */
