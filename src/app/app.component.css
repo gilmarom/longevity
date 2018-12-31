@@ -23,7 +23,7 @@ hr{
 }
 
 form{
-  margin-bottom: 100px;
+ 
 }
 
 h1.main-text{
@@ -125,7 +125,7 @@ h2{
     font-size: 16px;
   }
   #home > img.bnw{
-    height: 250px;
+    height: 225px;
     width: 100%;
   
   }
@@ -745,7 +745,7 @@ input[type=submit]:hover {
   position: fixed;
   top:75%;
   left:48%;   
-  background:gray;
+  background:#0291D1;
   z-index: 1; 
   width: 4em;
   height: 4em;
@@ -754,7 +754,7 @@ input[type=submit]:hover {
   margin-top: 5em;
   margin-bottom: 5em;
   cursor: pointer;
-  border: 1em solid gray;
+  border: 1em solid #0291D1;
       font-family: 'Roboto', sans-serif;
   
 }
@@ -782,7 +782,7 @@ input[type=submit]:hover {
   border-top-right-radius: 0.5em;
   border-bottom-right-radius: 0.5em;
   transition: all 1s;
-  background:gray;
+  background:#0291D1;
   opacity: 0;
   z-index: -1;
 }
@@ -851,7 +851,7 @@ input[type=submit]:hover {
   transform: rotate(0deg) translateY(-1em);
 }
 .menu li:hover {
-  background: #0291D1;
+  background: gray;
   z-index: 10;
 }
 
