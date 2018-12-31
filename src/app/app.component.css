@@ -2,7 +2,7 @@
 body{    font-family: 'Roboto', sans-serif;}
 h1{ font-family: 'Roboto', sans-serif;}
 #home div{
-  color:#2dabbb;
+  color:#5DBCD2;
   padding-top: 0px;
   font-family: 'Roboto', sans-serif;
       
@@ -69,7 +69,7 @@ h2{
   
   width: 90%;
   text-align: center;
-  line-height: 30px;
+  line-height: 20px;
   font-size: 20px;
 }
 #home .long{ 
@@ -417,7 +417,7 @@ button{
   width: 100px;
   border: none;
   border-color: white;
-  color:#2dabbb; 
+  color:#5DBCD2; 
   background: white;
 }
 
@@ -549,7 +549,7 @@ button{
 }
 
 .class-section.challnges {
-    background-color: 	 #2dabbb;
+    background-color: 	 #5DBCD2;
   /*  background-image: url('/assets/brain.png');*/
      background-repeat: no-repeat;
       background-position: 50% 0;
@@ -686,7 +686,7 @@ label{
   color: black;
 }
 input[type=submit] {
-  background-color: #2dabbb;
+  background-color: #5DBCD2;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -851,7 +851,7 @@ input[type=submit]:hover {
   transform: rotate(0deg) translateY(-1em);
 }
 .menu li:hover {
-  background: #2dabbb;
+  background: #5DBCD2;
   z-index: 10;
 }
 
@@ -987,7 +987,7 @@ footer{
 }
 
 .flex-container-footer #prodaction{
-  color:#2dabbb;font-size:14px;text-align:left; position:absolute; left:78px;
+  color:#5DBCD2;font-size:14px;text-align:left; position:absolute; left:78px;
 }
 
 #profile{
@@ -1005,10 +1005,10 @@ footer{
   background-color:white;
 }
 #img{
-border-radius: 50%;    -webkit-border-radius: 50%; margin-top:2px;  border: 0.2em solid #2dabbb;  
+border-radius: 50%;    -webkit-border-radius: 50%; margin-top:2px;  border: 0.2em solid #5DBCD2;  
 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);position:relative;top:20px; width:160px; height:140px;}
 
-#profile > div  >div > div >div> p{ color: #2dabbb; background-color: white;  }
+#profile > div  >div > div >div> p{ color: #5DBCD2; background-color: white;  }
 #profile .button #contact{width:100%}
 /* Display the columns below each other instead of side by side on small screens */
 @media screen and (max-width: 650px) {
