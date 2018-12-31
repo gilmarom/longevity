@@ -7,6 +7,8 @@ h1{ font-family: 'Roboto', sans-serif;}
   font-family: 'Roboto', sans-serif;
       
 }
+
+#home div.main{ font-size:30px;}
 path {
   fill: transparent;
 }
@@ -65,23 +67,30 @@ h2{
 
 .flex-container-home > div {
   
- 
   width: 90%;
   text-align: center;
   line-height: 30px;
   font-size: 20px;
 }
+#home .long{ 
+   font-size: 50px;
+   justify-content: center;
+   text-align: center;
+                } 
 
 @media screen and ( max-width:500px){
   #home div{
-    font-size: 14px;
-    
-    
-    
+    font-size: 14px;  
    }
+ #home .long{ 
+   font-size: 20px;
+   justify-content: center;
+   text-align: center;
+                } 
   #home h1{
-     font-size: 40px; 
-     text-align: center; 
+    
+  font-size: 40px; 
+  text-align: center; 
   color: 		black;
   margin-top: -49px;
   margin-bottom: -41px;
@@ -116,7 +125,7 @@ h2{
     font-size: 16px;
   }
   #home > img.bnw{
-    
+    height: 250px;
     width: 100%;
   
   }
@@ -155,8 +164,8 @@ h2{
   }   
  nav.menu {
   position: fixed;
-  top:75%;
-  left:40%;   
+  top:73%;
+  left:41%;   
 }
 
   .flex-container-footer{height: 250px;} 
