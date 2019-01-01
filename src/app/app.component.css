@@ -113,8 +113,7 @@ h2{
  #aplly img#loading{
     
     width:60px;
-    position:relative;
-    left: 5%;
+   
    
   }
   
@@ -125,8 +124,8 @@ h2{
     font-size: 16px;
   }
   #home > img.bnw{
-    height: 225px;
-    width: 100%;
+    height: 200px;
+    width: 90%;
   
   }
   div.rainbow{
@@ -342,11 +341,11 @@ div.prize {
 }
 
 .flex-container > div {
-  background-color: #80b09a;
+  
   width: 200px;
   height: 200px;
   margin: 10px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   
 
   text-align: center;
   line-height: 75px;
