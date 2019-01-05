@@ -149,23 +149,32 @@
       </div>
    </div>
 </div>
-<div>
-   <h1 style="text-align:center;padding:30px;color:gray;">Prizes</h1>
-   <ol>
-      <div class="flex-container">
+<div style=" background-color:#0291D1;">
+   <h1 style="text-align:center;padding:30px;color:white; background-color:#0291D1;">Prizes</h1>
+   <ol  style=" background-color:#0291D1;">
+      <div class="flex-container" style=" background-color:#0291D1;">
          <div id="second">
-            <li>
+            <li><strong>
                3000 &#8362; 
+               </strong>
             </li>
          </div>
          <div id="first">
+           <strong>
             <li>5000 &#8362;</li>
+           </strong>
          </div>
          <div id="third">
+           <strong>
             <li>1500 &#8362;</li>
+           </strong>
          </div>
       </div>
    </ol>
+</div>
+<div class="flex-container">
+
+<app-slogen></app-slogen>
 </div>
 <div>
    <div id="sponsorship" style="background-color:rgba(239,239,241,0.85);">
@@ -213,26 +222,40 @@
                <p style="background-color:white; color:gray;text-align:center; width:100%;">Are you a technological expert or scientict ? Are you pessionate about making a big shift in the quality of human health ? if yes, Fill the form and Join the event</p>
                <h1 style="text-align:center; color:#0291D1;">Join Us</h1>
                <hr>
-               <form action="/action_page.php">
-                  <input type="text" id="fname" name="firstname" placeholder="Your name..">
-                  <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-                  <select id="profession" name="profession" placeholder="profession">
-                     <option value="bioinformatics">Bioinformatics</option>
-                     <option value="data">Data science ML expert</option>
-                     <option value="fullstack">Full stack</option>
-                     <option value="sponsorship">Sponsorship</option>
-                  </select>
-                  <label for="subject">Subject</label>
-                  <textarea id="subject" name="subject" placeholder="Tell us more about yourself.." style="height:170px"></textarea>
-                  <input type="submit" value="Send">
-                  <hr>
-               </form>
+               <form (ngSubmit)="processForm()">
+     
+                  <!-- name -->
+                   <div class="form-group">
+                   <input type="text" name="name" class="input" placeholder="Your Name" [(ngModel)]="name">
+                  </div>
+
+                  <!-- email -->
+                  <div class="form-group">
+                    <input type="email" name="email" class="input" placeholder="Your Email" [(ngModel)]="email">
+                  </div>
+                  <!-- input -->
+                  <div class="form-group">
+                  <select type="number"   [(ngModel)]="proSelected"  (ngModelChange)="onSelectProfession()"  [ngModelOptions]="{standalone: true}">>
+                     <option *ngFor="let pro of professions" [ngValue]="pro.Name" >{{pro.Name}}</option>
+                 </select>
+                  </div>
+                 
+                  <!-- message -->
+                 <div class="form-group">
+                    <textarea class="textarea" name="message" placeholder="What's on your mind?" [(ngModel)]="message"></textarea>
+                </div>
+
+                  <button type="submit" >Submit</button>
+
+                </form>
             </div>
          </div>
       </div>
    </div>
 </div>
 <br>
+
+
 <footer>
    <div class="flex-container-footer">
       <div>
@@ -249,3 +272,6 @@
       </div>
    </div>
 </footer>
+<script>
+  
+</script>

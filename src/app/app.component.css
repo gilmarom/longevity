@@ -362,18 +362,23 @@ ol{
  #first {
 height: 200px;
 background-color: 	darkgoldenrod;
+color: white;
+
 }
  #second {
   position:relative;
   top:10%;
   height: 170px;
-  background-color: silver
+  background-color: silver;
+  color: white;
+
 }
 #third{
   position: relative;
   top:20%;
   height: 140px;
   background-color: #CD7F32;
+  color: white;
 }
 
 /* When you mouse over the navigation links, change their color */
@@ -681,6 +686,27 @@ input[type=text], select, textarea {
   opacity: 1;
    
 }
+
+ textarea {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  opacity: 1;
+  height: 150px; 
+}
+input[type=email], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  opacity: 1;
+   
+}
 label{
   color: black;
 }
@@ -727,9 +753,6 @@ input[type=submit]:hover {
 
 /* --- */
 
-
-
-
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
   .column, input[type=submit] {
@@ -766,7 +789,7 @@ input[type=submit]:hover {
   height: 0.2em;
   border-top: 0.6em double #fff;
   border-bottom: 0.2em solid #fff;
-   background-image: url('/assets/longevity1.png');
+  background-image: url('/assets/longevity1.png');
 }
 .menu ul {
   list-style: none;
