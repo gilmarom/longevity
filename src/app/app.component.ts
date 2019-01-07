@@ -1,6 +1,9 @@
 import { Component , OnInit} from '@angular/core';
 import {  contact} from './contact';
 import { DataService} from './data.service';
+import 'lodash';
+import * as $ from 'jquery';
+declare var $:any;
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -17,7 +20,9 @@ export class AppComponent implements OnInit{
   message;
   proSelected: string;
   modifedtext: string;
-  constructor( private dataService :DataService ){}
+  constructor( private dataService :DataService ){
+    
+  }
   
   ngOnInit() {
     this.professions = [
@@ -26,6 +31,14 @@ export class AppComponent implements OnInit{
       {Id:3, Name:'fullstack'}, 
       {Id:4, Name:'sponsorship'}];
     this.proSelected ="";
+     
+$(document).ready(function() {      
+     $('.dc-menu-trigger').click(function(){
+        $('nav').toggleClass( "dc-menu-open" );
+        $('.menu-overlay').toggleClass( "open" );
+        $('header').toggleClass( "shownav" );
+     }); 
+  });
   }
   
   onSelectProfession(){

@@ -763,155 +763,6 @@ input[type=submit]:hover {
 
 
 
-.menu {
-  position: fixed;
-  top:75%;
-  left:48%;   
-  background:#0291D1;
-  z-index: 1; 
-  width: 4em;
-  height: 4em;
-  border-radius: 5em;
-  margin: auto;
-  margin-top: 5em;
-  margin-bottom: 5em;
-  cursor: pointer;
-  border: 1em solid #0291D1;
-      font-family: 'Roboto', sans-serif;
-  
-}
-.menu:after {
-  content: "";
-  position: absolute;
-  top: 0.5em;
-  left: 0.5em;
-  width: 1em;
-  height: 0.2em;
-  border-top: 0.6em double #fff;
-  border-bottom: 0.2em solid #fff;
-  background-image: url('/assets/longevity1.png');
-}
-.menu ul {
-  list-style: none;
-  padding: 0;
-}
-.menu li {
-  width: 6em;
-  height: 1.4em;
-  padding: 0.2em;
-  margin-top: 0.2em;
-  text-align: center;
-  border-top-right-radius: 0.5em;
-  border-bottom-right-radius: 0.5em;
-  transition: all 1s;
-  background:#0291D1;
-  opacity: 0;
-  z-index: -1;
-}
-.menu:hover li {
-  opacity: 1;
-}
-/**
- * Add a pseudo element to cover the space
- * between the links. This is so the menu
- * does not lose :hover focus and disappear
- */
-.menu:hover ul::before {
-  position: absolute;
-  content: "";
-  width: 0;
-  height: 0;
-  display: block;
-  left: 50%;
-  top: -5.0em;
-  /**
-   * The pseudo-element is a semi-circle
-   * created with CSS. Top, bottom, and right
-   * borders are 6.5em (left being 0), and then
-   * a border-radius is added to the two corners
-   * on the right.
-   */
-  border-width: 6.5em;
-  border-radius: 0 7.5em 7.5em 0;
-  border-left: 0;
-  border-style: solid;
-  /**
-   * Have to have a border color for the border
-   * to be hoverable. I'm using a very light one
-   * so that it looks invisible.
-   */
-  border-color: rgba(0,0,0,0.01);
-  /**
-   * Put the psuedo-element behind the links
-   * (So they can be clicked on)
-   */
-  z-index: -1;
-  /**
-   * Make the cursor default so it looks like
-   * nothing is there
-   */
-  cursor: default;
-}
-.menu a {
-  color: white;
-  text-decoration: none;
-  /**
-   * This is to vertically center the text on the
-   * little tab-like things that the text is on.
-   */
-  line-height: 1.5em;
-}
-.menu a {
-  color: white;
-  text-decoration: none;
-}
-.menu ul {
-  transform: rotate(180deg) translateY(-2em);
-  transition: 1s all;
-}
-.menu:hover ul {
-  transform: rotate(0deg) translateY(-1em);
-}
-.menu li:hover {
-  background: gray;
-  z-index: 10;
-}
-
-.menu li:nth-of-type(1) {
-  transform: rotate(-90deg);
-  position: absolute;
-  left: -1.8em;
-  top: -5.0em;
-}
-.menu li:nth-of-type(2) {
-  transform: rotate(-45deg);
-  position: absolute;
-  left: 2em;
-  top: -3em;
-}
-.menu li:nth-of-type(3) {
-  
-  position: absolute;
-  left: 3.4em;
-  top: 0.3em;
-}
-.menu li:nth-of-type(4) {
-  transform: rotate(45deg);
-  position: absolute;
-  right: 2em;
-  top: -3em;
-}
-.menu li:nth-of-type(5) {
-  
-  position: absolute;
-  right: 3.4em;
-  top: 0.3em;
-}
-.hint {
-  text-align: center;
-}
-
-
 img.bnw{
     /* filter: url(filters.svg#grayscale); Firefox 3.5+ */
       filter: gray; /* IE5+ */
@@ -1076,4 +927,194 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);position:relative;top:20px; width:160
 
 .button:hover {
   background-color: #555;
+}
+
+
+
+body {
+  line-height: 100vh;
+  text-align: center;
+  background: radial-gradient(#0291D1, white);
+}
+svg {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+path {
+  stroke: cadetblue;
+  stroke-width: 2;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+  stroke-dasharray: 193.904983521;
+  fill: none;
+  -webkit-animation:
+    load 4s linear infinite,
+    color 3s linear infinite;
+
+}
+
+@keyframes load {
+  from { stroke-dashoffset: 777; }
+}
+
+@keyframes color {
+  33% { stroke: #0291D1; }
+  66% { stroke: #80b09a; }
+}
+
+
+
+html{
+  height: 100%;
+  display: block;
+  min-height: 100%;
+  padding:0;
+  margin:0;
+}
+
+.bar {
+	background-color: #2c3e50;
+	width: 30px;
+	height: 2px;
+	border-radius: 5px;
+	right: 15px;
+	top: 18px;
+}
+
+.first {
+	position: absolute;
+}
+
+.second {
+	margin-top: 10px;
+	position: absolute;
+}
+
+.third {
+	margin-top: 20px;
+	position: absolute;
+}
+
+.icon{
+  cursor: pointer;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  right: 15px;
+  top:15px;
+  border-radius:50%;
+}
+
+#menu_trigger{
+  position:absolute;
+  z-index: 2;
+  top: -9999px;
+  left:-9999px;
+}
+.menu{
+  height: 100%;
+  margin:0;
+  width:300px;
+  position: fixed;
+  right: -300px;
+  top:0;
+  background-color: #2c3e50;
+  z-index: 0;
+}
+
+.menu, .menu_triger{
+  transition: right 0.3s linear;
+}
+
+#menu_trigger:checked ~ .icon{
+  right:300px;
+}
+
+#menu_trigger:checked ~ .menu{
+  right:0;
+}
+
+#menu_trigger:checked ~ .site{
+  transform: translateX(-300px);
+}
+
+.site{
+  margin:0;
+  height: 100%;
+  z-index:0;
+  transition: 0.3s ease-in-out;  
+  font-family: Arial, Helvetica, sans-serif;
+  color:#7f8c8d;
+}
+
+.site h1{
+  margin-top:150px;
+}
+
+h1{
+  text-align:center;
+}
+
+.menu .bar{
+  background-color: #fafafa;
+}
+
+.menu .bar.first{
+  -webkit-transform-origin: 50% -50%;
+	-moz-transform-origin: 50% -50%;
+	-o-transform-origin: 50% -50%;
+	-ms-transform-origin: 50% -50%;
+	transform-origin: 50% -50%;
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+
+.menu .bar.second{
+	-webkit-transform-origin: 5% 0%;
+	-moz-transform-origin: 5% 0%;
+	-o-transform-origin: 5% 0%;
+	-ms-transform-origin: 5% 0%;
+	transform-origin: 5% 0%;
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+}
+
+.menu label{
+  display:block;
+  position:absolute;
+  width:65px;
+  height:40px;
+  right:0;
+  cursor: pointer;
+}
+
+.menu ul{
+  width:100%;
+  margin-left:0;
+  list-style-type:none;
+  margin-top:100px;
+}
+
+.menu li{
+  margin-top:30px;
+  margin-left:30px;
+}
+
+.menu a{
+  color: black;
+  text-decoration:none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight:100;
+  font-size: 20px;
+}
+
+.menu a i{
+  margin-right: 30px;
 }

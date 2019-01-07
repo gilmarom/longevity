@@ -5,10 +5,14 @@ import { AppComponent } from './app.component';
 import { HttpClientModule } from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { SlogenComponent } from './slogen/slogen.component';
+import { TeamComponent } from './team/team.component';
+import { NavbarComponent } from './navbar/navbar.component';
 @NgModule({
   declarations: [
     AppComponent,
-    SlogenComponent
+    SlogenComponent,
+    TeamComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
