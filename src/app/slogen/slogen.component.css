@@ -132,37 +132,37 @@ body {
   0%  { top: 0px; }
     20% { top: -20px; }
     40% { top: -40px; }
-    60% { top: -150px; }
-    80% { top: -200px; }
+    100% { top: -60px; }
+  
 }
 
 @-webkit-keyframes move {
     0%  { top: 0px; }
     20% { top: -20px; }
     40% { top: -40px; }
-    60% { top: -150px; }
-    80% { top: -200px; }
+    100% { top: -60px; }
+
 }
 @-moz-keyframes move {
      0%  { top: 0px; }
     20% { top: -20px; }
     40% { top: -40px; }
-    60% { top: -150px; }
-    80% { top: -200px; }
+    100% { top: -60px; }
+ 
 }
 @-o-keyframes move {
       0%  { top: 0px; }
     20% { top: -20px; }
     40% { top: -40px; }
-    60% { top: -150px; }
-    80% { top: -200px; }
+    100% { top: -60px; }
+  
 }
 @keyframes move {
      0%  { top: 0px; }
     20% { top: -20px; }
     40% { top: -40px; }
-    60% { top: -150px; }
-    80% { top: -200px; }
+    100% { top: -60px; }
+
 }
 
 }
