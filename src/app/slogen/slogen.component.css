@@ -8,14 +8,14 @@ body {
  
   padding: 2em 5em;
   font: normal 40px/50px Montserrat, sans-serif;
-  color: #0291D1;
+  color: #225470;
   height: 100px;
 }
 .Iam p {
   height: 50px;
   float: left;
   margin-right: 0.3em;
-  color:#0291D1;
+  color:#225470;
   
   padding-right: 2px;
 }
@@ -28,7 +28,7 @@ body {
 }
 .Iam .innerIam {
   display: inline-block;
-  color: #0291D1;
+  color: #225470;
   position: relative;
   white-space: nowrap;
   top: 0;
@@ -101,12 +101,12 @@ body {
 
   
   font: normal 16px/20px Montserrat, sans-serif;
-  color: #0291D1;
+  color: #225470;
   height: 100px;
   float: center;
 }
 .Iam p {
-  height: 20px;
+  height: 23px;
   float: center;
   margin-right: 0;
 }
@@ -120,7 +120,7 @@ body {
 }
 .Iam .innerIam {
   display: inline-block;
-  color: #0291D1;
+  color: #225470;
   position: relative;
   white-space: nowrap;
   top: 0;

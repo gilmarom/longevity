@@ -8,12 +8,17 @@ h1{
   text-align:center;
   font-family:'Roboto', sans-serif;
   font-size:3em;
-  color:#0291D1;
+  color:#225470;
+}
+
+h2{
+   color:#225470;
 }
 #team{
   display:flex;
   flex-wrap: wrap;
   flex-grow:3;
+  z-index: 0;
 }
 .card {
   width:25%;
@@ -21,7 +26,7 @@ h1{
   height: 300px;
   overflow: hidden;
   position: relative;
-
+  font-family:'Roboto', sans-serif;
   display:inline-block
 }
 .card:nth-of-type(3n){
@@ -49,7 +54,8 @@ h1{
   padding: 10px 5%;
   box-sizing: border-box;
   opacity: 0.8;
-  transition: all 0.4s
+  transition: all 0.4s;
+  font-family:'Roboto', sans-serif;
 }
 
 .card:hover .data {
@@ -63,7 +69,8 @@ h1{
 
 .data h2 {
   margin: 0 0 5px 0;
-  transition:color 0.4s
+  transition:color 0.4s;
+ 
 }
 
 .data p {
@@ -85,7 +92,7 @@ h1{
   opacity:0
 }
 .data a:hover,.card:hover h2{
-  color:#38c
+  color:#225470;
 }
 
 @media (max-width:799px){

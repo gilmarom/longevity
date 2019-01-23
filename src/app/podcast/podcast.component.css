@@ -1,0 +1,174 @@
+body{
+     font-family: 'Roboto', sans-serif;
+     width: 100%;
+     
+}
+
+
+
+.pic { 
+     position: fixed;
+     bottom: 0; 
+     background-color:#DEB887;height:25%;width:100%;
+     left:0;
+
+}
+.background{
+
+    position: fixed;
+    top:0;
+
+}
+.time {
+  width: 100%;
+  padding-right: 40px;
+  padding-left: 40px;
+  }
+
+#time {
+  width: 50%;
+  clear: both;
+  background-color: black;
+  height: 5px;
+}
+
+#music-player{
+  opacity:0;
+  position:absolute;
+  top:-100px;
+}
+.audio{
+    
+    position: relative;
+    bottom:25px;
+    left: 75%;
+    padding-left: 10px;
+    border-radius: 50%;
+}
+    .audio:hover {
+	background-color: rgba(0,0,0,0.8);
+	box-shadow: 0px 0px 10px rgba(255,255,100,1);
+	text-shadow: 0px 0px 10px rgba(255,255,100,1);
+}
+
+.body{
+    background-color: #ec2c22;
+}
+.starman{
+    position: fixed;
+    bottom:22%;
+    left: 7%;
+    z-index: 1;
+
+} 
+.container{
+  max-width:960px;
+  padding-left:1rem;
+  padding-right:1rem;
+  margin:auto;
+  text-align:center;
+}
+.v-header{
+  height:100vh;
+  display:flex;
+  align-items:center;
+  color:#fff;
+  width: 100%;
+}
+.fullscreen-video-wrap{
+  position:absolute;
+  top:0;
+  left:0;
+  width:100vw;
+  height:100vh;
+  overflow:hidden;
+}
+
+.fullscreen-video-wrap video{
+  min-height:100%;
+  min-width:100%;
+}
+
+.flex-container {
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  justify-content: center;
+  color: MidnightBlue; 
+  background-color: #ec2c22;
+  flex-wrap: nowrap;
+  position: fixed;
+  top:0;
+  height: 75%; 
+  left:0;
+ }
+
+.flex-container > div {
+  color: gray;
+  width: 100%;
+  text-align: center;
+  height: 100px;
+  font-size: 20px;
+  position: relative;
+  top:20%;
+  background-color: #ec2c22;
+  
+}
+
+h1{    
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    width: 80%;
+    text-align: center;
+    padding-left:10px; 
+    }
+p {   width: 60%;
+      background-color: #ec2c22;
+      text-align: left;
+      color: white;
+      z-index: 2; 
+      font-size: 20px; 
+      padding-top:2%;
+}    
+h3{
+    text-align: left;
+   
+}
+
+@media screen and ( max-width:500px){
+
+   .starman {
+    position: absolute;
+    bottom:13.5%;
+    
+    width: 200px;
+    }
+
+    .pic {
+     background-color:#DEB887;height:15%;width:100%;
+    }  
+    .audio{
+    
+    position: relative;
+    bottom:25px;
+    left: 60%;
+    padding-left: 10px;
+    }
+    .audio:hover {
+    border-radius: 50%;
+    height: 30px;    
+	background-color: rgba(0,0,0,0.8);
+	box-shadow: 50px 50px 50px 50px rgba(255,255,100,1);
+	text-shadow: 10px 10px 10px 10px rgba(255,255,100,1);
+
+}
+
+    p {
+        font-size: 16px;
+        background:  #ec2c22;
+        width: 80%;
+    }
+    h1{
+        font-size: 25px;
+    }
+}

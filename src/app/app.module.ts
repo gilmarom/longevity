@@ -7,18 +7,31 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { SlogenComponent } from './slogen/slogen.component';
 import { TeamComponent } from './team/team.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { RouterModule, Routes } from '@angular/router';
+import { PodcastComponent } from './podcast/podcast.component';
+import { HomeComponent } from './home/home.component';
+
+const appRoutes: Routes = [
+  { path: '', component: HomeComponent },
+  { path: 'podcast', component: PodcastComponent}
+]
+
 @NgModule({
   declarations: [
     AppComponent,
     SlogenComponent,
     TeamComponent,
-    NavbarComponent
+    NavbarComponent,
+    PodcastComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
     FormsModule,
-    HttpClientModule
+    HttpClientModule,
+    RouterModule.forRoot(appRoutes)
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
