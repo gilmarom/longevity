@@ -1,42 +1,29 @@
 
 
 
- <div class="flex-container"> 
-     
-  <div style="z-index:3">
-    
-   <h1>Rise of the ageless starman</h1>   
-    </div>
-     <div>  
-      <p style="z-index:3">fddfd dff df dfdfdff df df dfdf  fdfd dfdf dfd df
-       fddfd dff df dfdfdff df df dfdf  fdfd dfdf dfd df
-        fddfd dff df dfdfdff df df dfdf  fdfd dfdf dfd df
-       fddfd dff df dfdfdff df df dfdf  fdfd dfdf dfd df
-      </p>
-      <h3>With Dr</h3>
-   
-    </div>
-  </div>
-    <img class="starman" src='assets/david.png' width="350">
- 
- 
- 
-  
-<div class="pic" >
 
- <div><a  (click)="toggle()"  class="audio"><img src="assets/play.png"  ></a></div>
-         <div class="time" *ngIf="show_dialog">
-      <audio controls autoplay>
-        <source src="assets/Heartbeat.mp3">
-          
-           
-      </audio>
-       
-     </div>
-    
-    
-  </div>
+    <img class="starman" src='assets/david.png'>
+
+      <div style='background-color: #ec2c22; height:100%;width:100%;margin:0;'>
   
+    <div class="post-list">            
+      <div class="list-item" *ngFor="let pod of podcasts">
+        <div><a 
+                 routerLink="/podcast/{{pod.id}}"> 
+             <h2 class="list-item-title"> <span>Rise of The Ageless Starman</span><img class="slide"  src='assets/play-white.png'>
+             </h2>            
+             <p>Episode {{pod.id}}: {{ pod.particpate }} - {{pod.name}}</p></a>
+        </div>   
+        </div>
+        
+   </div>
+    </div>
+
+ 
+ 
+ 
+ 
+
    
   
 

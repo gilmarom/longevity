@@ -10,10 +10,15 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { RouterModule, Routes } from '@angular/router';
 import { PodcastComponent } from './podcast/podcast.component';
 import { HomeComponent } from './home/home.component';
+import { PlayComponent } from './play/play.component';
+
+
 
 const appRoutes: Routes = [
   { path: '', component: HomeComponent },
-  { path: 'podcast', component: PodcastComponent}
+  { path: 'podcast', component: PodcastComponent},
+  { path:'podcast/:id', component: PlayComponent}
+
 ]
 
 @NgModule({
@@ -23,7 +28,8 @@ const appRoutes: Routes = [
     TeamComponent,
     NavbarComponent,
     PodcastComponent,
-    HomeComponent
+    HomeComponent,
+    PlayComponent
   ],
   imports: [
     BrowserModule,
