@@ -11,7 +11,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { PodcastComponent } from './podcast/podcast.component';
 import { HomeComponent } from './home/home.component';
 import { PlayComponent } from './play/play.component';
-import { Podcast } from './podcast';
+
 
 
 const appRoutes: Routes = [
@@ -30,7 +30,7 @@ const appRoutes: Routes = [
     PodcastComponent,
     HomeComponent,
     PlayComponent,
-    Podcast
+    
   ],
   imports: [
     BrowserModule,
