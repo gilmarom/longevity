@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {PodcastService } from '../podcast.service';
 import { HttpClient} from '@angular/common/http';
-import { Podcast } from '../Podcast';
 @Component({
   selector: 'app-podcast',
   templateUrl: './podcast.component.html',
