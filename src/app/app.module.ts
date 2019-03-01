@@ -11,7 +11,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { PodcastComponent } from './podcast/podcast.component';
 import { HomeComponent } from './home/home.component';
 import { PlayComponent } from './play/play.component';
-
+import { Podcast } from './podcast';
 
 
 const appRoutes: Routes = [
@@ -29,7 +29,8 @@ const appRoutes: Routes = [
     NavbarComponent,
     PodcastComponent,
     HomeComponent,
-    PlayComponent
+    PlayComponent,
+    Podcast
   ],
   imports: [
     BrowserModule,
