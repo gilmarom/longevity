@@ -5,5 +5,6 @@ export class Podcast {
   pic:string;
   brief:string;
   pro:string;
- 
+  background:string;
+  playButton:string;
 }

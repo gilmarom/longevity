@@ -16,7 +16,6 @@ body{
 .list-item
 {
     position: relative;
-    width: 95%;
     font-size: 40px;
     font-weight: 750;
     color: white;
@@ -24,7 +23,7 @@ body{
     padding-top: 10px; 
   
    
-    padding-left: 5%;
+    padding-left: 8%;
         -webkit-animation: fadeInUp .5s 0ms cubic-bezier(.215,.61,.355,1) both;
     animation: fadeInUp .5s 0ms cubic-bezier(.215,.61,.355,1) both;
     -webkit-transition: background-color .3s cubic-bezier(.215,.61,.355,1);
@@ -94,9 +93,10 @@ a{
 }
 .starman{
     position:fixed;
-    bottom:22%;
+    top:12%;
     left: 30%;
     z-index: 0;
+    height: 75%;
     opacity: 0.3;
 
 } 
@@ -190,7 +190,7 @@ h3{
 .list-item
 {
     position: relative;
-    width: 95%;
+    width: 90%;
     font-size: 30px;
     font-weight: 750;
     color: white;
@@ -198,7 +198,7 @@ h3{
     padding-top: 0%; 
     line-height: 1.15em;
     margin-bottom: .15em;
-    padding-left: 5%;
+    padding-left: 8%;
 }.list-item:hover{
     background-color: #DEB887;
 }
