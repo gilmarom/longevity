@@ -29,7 +29,8 @@ const appRoutes: Routes = [
     NavbarComponent,
     PodcastComponent,
     HomeComponent,
-    PlayComponent
+    PlayComponent,
+    
   ],
   imports: [
     BrowserModule,
