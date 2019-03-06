@@ -33,14 +33,7 @@ export class HomeComponent implements OnInit {
       {Id:3, Name:'fullstack'}, 
       {Id:4, Name:'sponsorship'}];
     this.proSelected ="";
-     
-$(document).ready(function() {      
-     $('.dc-menu-trigger').click(function(){
-        $('nav').toggleClass( "dc-menu-open" );
-        $('.menu-overlay').toggleClass( "open" );
-        $('header').toggleClass( "shownav" );
-     }); 
-  });
+ 
   }
   
   onSelectProfession(){

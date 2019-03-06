@@ -55,7 +55,7 @@ html{
 }
 
 .bar {
-	background-color:midnightblue ;
+	background-color:#0A2B30 ;
 	width: 20px;
 	height: 4px;
 	border-radius: 6px;
@@ -102,8 +102,8 @@ html{
   right: -100%;
 
   top:0;
-  background-color:MidnightBlue;
-  opacity:0.8;
+  background-color:#0A2B30;
+  opacity:1;
   z-index: 0;
 }
 
@@ -188,7 +188,7 @@ h1{
   margin-left:0;
   list-style-type:none;
   margin-top:100px;
-  background-color: MidnightBlue;
+  background-color: #0A2B30;
   text-align: center;
 }
 
@@ -196,6 +196,7 @@ h1{
   width: 90%;
   margin-bottom:15px;
   text-align: center;
+  letter-spacing: 0.05em;
 }
 
 .menu a{
@@ -203,7 +204,7 @@ h1{
   text-decoration:none;
   font-family: Arial, Helvetica, sans-serif;
   font-weight:600;
-  font-size: 30px;
+  font-size: 35px;
   z-index: 6;
   opacity: 1;
   

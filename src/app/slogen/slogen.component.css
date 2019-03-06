@@ -1,22 +1,24 @@
 body {
-  background: white;
+ 
  
   padding-left: 0;
 }
 
 .Iam {
- 
+  display: flex;
   padding: 2em 5em;
   font: normal 40px/50px Montserrat, sans-serif;
-  color: #225470;
+  color: white;
   height: 100px;
+  z-index: 1;
 }
 .Iam p {
+
   height: 50px;
   float: left;
   margin-right: 0.3em;
-  color:#225470;
-  
+  color:white;
+  z-index: 1;
   padding-right: 2px;
 }
 .Iam b {
@@ -28,19 +30,20 @@ body {
 }
 .Iam .innerIam {
   display: inline-block;
-  color: #225470;
+  color: white;
   position: relative;
   white-space: nowrap;
   top: 0;
   left: 0;
+  z-index: 1;
 
 
 /*animation*/
--webkit-animation:move 10s;
-   -moz-animation:move 10s;
-    -ms-animation:move 10s;
-     -o-animation:move 10s;
-        animation:move 10s;
+-webkit-animation:move 7s;
+   -moz-animation:move 7s;
+    -ms-animation:move 7s;
+     -o-animation:move 7s;
+        animation:move 7s;
 /*animation-iteration-count*/
 -webkit-animation-iteration-count:infinite;
    -moz-animation-iteration-count:infinite;
@@ -101,7 +104,7 @@ body {
 
   
   font: normal 16px/20px Montserrat, sans-serif;
-  color: #225470;
+  
   height: 100px;
   float: center;
 }
@@ -120,7 +123,7 @@ body {
 }
 .Iam .innerIam {
   display: inline-block;
-  color: #225470;
+ 
   position: relative;
   white-space: nowrap;
   top: 0;

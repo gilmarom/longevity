@@ -1,6 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 import {PodcastService } from '../podcast.service';
 import { HttpClient} from '@angular/common/http';
+import 'lodash';
+import * as $ from 'jquery';
+declare var $:any;
+
 @Component({
   selector: 'app-podcast',
   templateUrl: './podcast.component.html',
@@ -18,9 +22,18 @@ export class PodcastComponent implements OnInit {
           {id:1, name: 'The Lottery of Life', particpate: 'Dr Anat Chesner-haviv'},
           {id:2, name:'Under Pressure',particpate: ''},
           {id:3, name:'Integrated Wisdom',particpate: ''}, 
-          {id:4, name:'Coming soon!',particpate: 'Dr Anat Chesner-haviv'},
-          {id:5, name:'Coming soon!',particpate: 'Dr Anat Chesner-haviv'}
+          {id:4, name:'Coming soon!',particpate: ''},
+          {id:5, name:'Coming soon!',particpate: ''}
        ]
+
+           
+$(document).ready(function() {      
+     $('.dc-menu-trigger').click(function(){
+        $('nav').toggleClass( "dc-menu-open" );
+        $('.menu-overlay').toggleClass( "open" );
+        $('header').toggleClass( "shownav" );
+     }); 
+  });
 
   }
 
