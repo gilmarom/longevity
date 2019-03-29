@@ -210,7 +210,7 @@ h2{
    font-size: 50px;
    justify-content: center;
    text-align: center;
-  
+   
                 } 
 
 @media screen and ( max-width:500px){
@@ -256,7 +256,12 @@ h2{
     color: #225470;
    
   }
-  
+  .slogen{
+    top:47%;
+  }
+  .forever{
+    height: 150px;
+  }
   #home .sub-main-header{
      position: absolute;
     top:20%;
@@ -502,28 +507,6 @@ ol{
   list-style-type: none;
   font-size: 20px;
   
-}
-
- #first {
-height: 200px;
-background-color: 	darkgoldenrod;
-color: white;
-
-}
- #second {
-  position:relative;
-  top:10%;
-  height: 170px;
-  background-color: silver;
-  color: white;
-  
-}
-#third{
-  position: relative;
-  top:20%;
-  height: 140px;
-  background-color: #CD7F32;
-  color: white;
 }
 
 /* When you mouse over the navigation links, change their color */
@@ -866,8 +849,8 @@ input[type=submit]:hover {
   }
   .rock{
     
-    font-weight: 750;
-    font-size: 45px;
+    font-weight: 500;
+    font-size: 40px;
     letter-spacing: 0.01em;
   }
 }
